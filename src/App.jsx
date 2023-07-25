@@ -12,7 +12,7 @@ import IconButton from '@mui/joy/IconButton';
 import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 
-import framesxTheme from '/Users/macbookairm2256/personal projects/phflightalerts/theme.js';
+import framesxTheme from '/theme.js';
 
 
   function ColorSchemeToggle() {
