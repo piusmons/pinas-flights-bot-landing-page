@@ -65,9 +65,7 @@ import framesxTheme from '/theme.js';
           height: '100vh',
           overflowY: 'scroll',
           scrollSnapType: 'y mandatory',
-          '& > div': {
-            scrollSnapAlign: 'start',
-          },
+          
         }}
       >
         <Home/>
