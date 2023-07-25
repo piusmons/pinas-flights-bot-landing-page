@@ -46,9 +46,7 @@ export default function Pricing() {
           Pricing
         </Typography>
         <Typography variant="h5" align="center" textColor="text.secondary" component="p">
-          Quickly build an effective pricing table for your potential customers with
-          this layout. It&apos;s built with default MUI components with little
-          customization.
+          Free for a limited time only!
         </Typography>
       </Container>
 
@@ -58,7 +56,7 @@ export default function Pricing() {
       
         <Card size="lg" variant="outlined">
           <Chip size="sm" variant="outlined" color="neutral">
-            BASIC
+            FREE
           </Chip>
           <Typography level="h2" fontSize="xl3">
             Promo
