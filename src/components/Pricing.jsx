@@ -23,7 +23,8 @@ export default function Pricing() {
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
-        flexDirection: 'column',
+        justifyContent: 'center',
+        
         py: 10,
         gap: 4,
         [theme.breakpoints.up(834)]: {
@@ -35,23 +36,18 @@ export default function Pricing() {
         },
       })}
     >
-      <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
-        <Typography
-          level='h1'
-          variant="h2"
-          align="center"
-          color="primary"
-          gutterBottom
-        >
-          Pricing
-        </Typography>
-        <Typography variant="h5" align="center" textColor="text.secondary" component="p">
-          Free for a limited time only!
-        </Typography>
-      </Container>
 
+      <Grid container spacing={6} sx={{ alignItems: 'center', justifyContent: 'center' }} >
+     
+      <Grid item xs={12} >
+        <Typography sx={{alignItems: 'center',textAlign: 'center' }} level="h1" >
+              Pricing
+            </Typography>
 
-      <Grid item xs={6}>
+      </Grid>
+      
+
+      <Grid item xs={8} >
 
       
         <Card size="lg" variant="outlined">
@@ -81,6 +77,12 @@ export default function Pricing() {
               </ListItemDecorator>
               1 messaging platform
             </ListItem>
+            <ListItem>
+              <ListItemDecorator>
+                <Check />
+              </ListItemDecorator>
+              Limited time only
+            </ListItem>
             
           </List>
           <Divider inset="none" />
@@ -102,6 +104,10 @@ export default function Pricing() {
         </Card>
 
         </Grid>
+
+
+      </Grid>
+      
 
 
       

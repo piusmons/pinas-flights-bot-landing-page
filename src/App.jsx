@@ -16,7 +16,7 @@ import framesxTheme from '/theme.js';
 
 
   function ColorSchemeToggle() {
-    const { mode, setMode } = useColorScheme();
+    const { mode, setMode } = useColorScheme('light');
     const [mounted, setMounted] = React.useState(false);
     React.useEffect(() => {
       setMounted(true);
