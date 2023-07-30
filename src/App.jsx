@@ -41,7 +41,7 @@ import framesxTheme from '/theme.js';
           position: 'fixed',
           zIndex: 999,
           top: '1rem',
-          right: '45rem',
+          right: '1rem',
           borderRadius: '50%',
           boxShadow: 'sm',
         }}
