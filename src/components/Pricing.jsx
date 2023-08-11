@@ -55,7 +55,7 @@ export default function Pricing() {
             FREE
           </Chip>
           <Typography level="h2" fontSize="xl3">
-            Promo
+            Sign up is free
           </Typography>
           <Divider inset="none" />
           <List size="sm" sx={{ mx: 'calc(-1 * var(--ListItem-paddingX))' }}>
@@ -63,13 +63,13 @@ export default function Pricing() {
               <ListItemDecorator>
                 <Check />
               </ListItemDecorator>
-              24/7 tracking
+              Post unlimited jobs
             </ListItem>
             <ListItem>
               <ListItemDecorator>
                 <Check />
               </ListItemDecorator>
-              instant alerts
+              Acquire unlimited profiles
             </ListItem>
             <ListItem>
               <ListItemDecorator>
@@ -77,29 +77,27 @@ export default function Pricing() {
               </ListItemDecorator>
               1 messaging platform
             </ListItem>
-            <ListItem>
-              <ListItemDecorator>
-                <Check />
-              </ListItemDecorator>
-              Limited time only
-            </ListItem>
+            
+              
             
           </List>
           <Divider inset="none" />
           <CardActions>
             <Typography level="h5" sx={{ mr: 'auto' }}>
-              0₱{' '}
+              0${' '}
               <Typography fontSize="sm" textColor="text.tertiary">
                 / month
               </Typography>
             </Typography>
+            <a href=" https://4pycls9h5at.typeform.com/to/j6ZjApwK" target="_blank" rel="noopener noreferrer">
             <Button
               variant="soft"
               color="info"
               endDecorator={<KeyboardArrowRight />}
             >
-              Start now
+              Get updated
             </Button>
+            </a>
           </CardActions>
         </Card>
 

@@ -42,10 +42,12 @@ export default function Features() {
             <EmojiFlagsRoundedIcon color="info" fontSize="xl5" sx={{mt:2}}/>
             <Box>
               <Typography fontSize="xl" fontWeight="lg" sx={{ mb: 1 }}>
-                Choose your base country (example: Japan)
+                Hire the best Filipino freelancers
               </Typography>
               <Typography level="body2">
-                Bots will track the best Japan-Philippines flights  <br />
+               Salesforce devs, paralegals, virtual assistants, video editors, graphic designers.
+               <br />
+                You name it. the platform will connect you with the best, and brightest talent <br />
               </Typography>
             </Box>
           </Card>
@@ -53,7 +55,7 @@ export default function Features() {
         </Grid>
         <Grid item xs={6}>
           <Card
-            variant="soft"
+            variant="outlined"
             color="neutral"
             orientation="vertical"
             sx={{ gap: 4, my: 1, alignItems:'center' }}
@@ -61,11 +63,13 @@ export default function Features() {
             <CircleNotificationsRoundedIcon color="info" fontSize="xl5" sx={{mt:2}}/>
             <Box>
               <Typography fontSize="xl" fontWeight="lg" sx={{ mb: 1 }}>
-                Instant notifications
+                No more agency fees
               </Typography>
               <Typography level="body2">
-                Get alerts straight to your phone real-time from our bot.
-                
+                Recruiters fees are usually 30% of 12 * per month of each placement.
+                Bpo's have very high turnover rates. 
+                Skip the middle-men and deal with <Typography variant='soft' level='title-lg'> your</Typography>employees directly.
+
               </Typography>
             </Box>
           </Card>
@@ -81,10 +85,13 @@ export default function Features() {
             <PriorityHighRoundedIcon color="info" fontSize="xl5" sx={{mt:2}}/>
             <Box>
               <Typography fontSize="xl" fontWeight="lg" sx={{ mb: 1 }}>
-                Free trial now available
+                Escrow payments available!
               </Typography>
               <Typography level="body2">
-                Limited offer only for Japan based Filipinos <br />
+                Escrow payments features to protect both parties. 
+                <br />
+                Only release payment when work has been rendered. 
+                Pay hourly, or per project, it's your choice!
               </Typography>
             </Box>
           </Card>

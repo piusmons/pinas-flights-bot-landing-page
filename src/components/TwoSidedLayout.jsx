@@ -3,6 +3,7 @@ import AspectRatio from '@mui/joy/AspectRatio';
 import Box from '@mui/joy/Box';
 import Container from '@mui/joy/Container';
 import { typographyClasses } from '@mui/joy/Typography';
+import { Card, CardCover } from '@mui/joy';
 
 export default function TwoSidedLayout({ children, reversed }) {
   return (
@@ -63,10 +64,11 @@ export default function TwoSidedLayout({ children, reversed }) {
           flexBasis: '50%',
         })}
       >
-        <img
-          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/34562767955999.5b4c9a73763a0.gif"
-          alt=""
-        />
+        <Card>
+          <CardCover>
+            <img src='https://images.unsplash.com/photo-1531496378573-7be09a2697d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80'></img>
+          </CardCover>
+        </Card>
       </AspectRatio>
     </Container>
   );
