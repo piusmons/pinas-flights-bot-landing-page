@@ -38,6 +38,7 @@ export default function Hero() {
           },
         }}/>
       </Typography>
+      
       <Typography
         level="h2"
         fontWeight="xl"

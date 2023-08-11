@@ -12,7 +12,7 @@ import IconButton from '@mui/joy/IconButton';
 import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeRoundedIcon from '@mui/icons-material/LightModeRounded';
 
-import framesxTheme from '/theme.js';
+import theme from '/theme.js';
 
 
   function ColorSchemeToggle() {
@@ -57,7 +57,7 @@ import framesxTheme from '/theme.js';
     
 
     return (
-      <CssVarsProvider disableTransitionOnChange theme={framesxTheme}>
+      <CssVarsProvider disableTransitionOnChange theme={theme}>
       <CssBaseline />
       <ColorSchemeToggle />
       <Box

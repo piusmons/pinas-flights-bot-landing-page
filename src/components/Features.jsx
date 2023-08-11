@@ -32,7 +32,7 @@ export default function Features() {
       })}
     >
       <Grid container spacing={2} >
-        <Grid item xs={12} >
+        <Grid item xs={12}>
           <Card
             variant="outlined"
             color="neutral"
@@ -53,7 +53,7 @@ export default function Features() {
         </Grid>
         <Grid item xs={6}>
           <Card
-            variant="outlined"
+            variant="soft"
             color="neutral"
             orientation="vertical"
             sx={{ gap: 4, my: 1, alignItems:'center' }}
