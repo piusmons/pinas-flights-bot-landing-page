@@ -83,12 +83,8 @@ export default function Pricing() {
           </List>
           <Divider inset="none" />
           <CardActions>
-            <Typography level="h5" sx={{ mr: 'auto' }}>
-              0${' '}
-              <Typography fontSize="sm" textColor="text.tertiary">
-                / month
-              </Typography>
-            </Typography>
+           
+            
             <a href=" https://4pycls9h5at.typeform.com/to/j6ZjApwK" target="_blank" rel="noopener noreferrer">
             <Button
               variant="soft"
